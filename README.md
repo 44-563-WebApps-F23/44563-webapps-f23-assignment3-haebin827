@@ -2,4 +2,4 @@
 # WebApps-F23-Assignment-3
 Assignment 3 - Basic HTML
 
-Hosted at [GitHub Pages URL](https://github.com/44-563-WebApps-F23/44563-webapps-f23-assignment3-haebin827)
+Hosted at [GitHub Pages URL](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment3-haebin827/)
