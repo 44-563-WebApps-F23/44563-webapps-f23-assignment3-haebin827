@@ -24,8 +24,50 @@
     </ul>
     <a href="mystats.html">MyStats file</a>
     <br><hr>
-    <h2>Sports Recommendations</h2>
-    <p>I will recommend four exciting sports for you to try.</p>
+    <h2>Recommended Sports</h2>
+    <p>The table below is the four sports I recommend others to try!</p>
+    <table>
+        <tr>
+            <th>Sport</th>
+            <th>Reason why I recommend it</th>
+            <th>Average weekly hours</th>
+        </tr>
+        <tr>
+            <td>Soccer</td>
+            <td>Running is good for health</td>
+            <td>1~2</td>
+        </tr>
+        <tr>
+            <td>Swimming</td>
+            <td>Full-body workout</td>
+            <td>2~3</td>
+        </tr>
+        <tr>
+            <td>Baseball</td>
+            <td>Great team sport</td>
+            <td>2~4</td>
+        </tr>
+        <tr>
+            <td>Yoga</td>
+            <td>For your flexibility</td>
+            <td>1~2</td>
+        </tr>
+    </table>
+    <br><hr>
+    <h2>Snippet</h2>
+    <blockquote>jQuery: How do I make an already open accordion slide collapse when I click on a different slide?</blockquote>
+    <a href="https://stackoverflow.com/questions/77079047/jquery-how-do-i-make-an-already-open-accordion-slide-collapse-when-i-click-on-a" target="_blank">[Source: Stack Overflow]</a>
+    <pre>
+        $("#slideshow > div:gt(0)").hide();
 
+        setInterval(function() { 
+        $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+        }, 3000);
+    </pre>
 </body>
 </html>
